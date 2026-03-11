@@ -4,7 +4,8 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 import database as db
-from handlers import negocios, productos, clientes, pedidos, reportes
+import negocios, productos, clientes, pedidos, reportes
+
 
 logging.basicConfig(
     format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
